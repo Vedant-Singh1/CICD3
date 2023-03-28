@@ -34,7 +34,7 @@ jobs:
         run: pwd && ls
         
       - name: Build with Maven
-        working-directory: ./system-layer
+        working-directory: ./ccicddd
         run: pwd && ls
     
 
