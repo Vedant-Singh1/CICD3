@@ -35,6 +35,6 @@ jobs:
         
       - name: Build with Maven
         working-directory: ./ccicddd
-        run: pwd && ls
+        run: mvn clean -B package
     
 
